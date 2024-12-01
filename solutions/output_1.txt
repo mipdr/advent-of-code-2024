@@ -1,1 +1,2 @@
-2166959
+Solution to part 1: 2166959 
+Solution to part 2: 23741109
