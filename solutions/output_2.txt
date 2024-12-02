@@ -1,1 +1,2 @@
 Solution to part 1: 356
+Solution to part 2: 413
