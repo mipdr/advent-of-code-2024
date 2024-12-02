@@ -4,6 +4,7 @@ use std::env;
 use std::path::Path;
 
 use days::day1::day1;
+use days::day2::day2;
 
 
 fn main() {
@@ -25,5 +26,10 @@ fn main() {
     if aoc_run_day == 1 || run_all {
         day1(Path::new("data/input_1_sample.txt"), Path::new("solutions/output_1_sample.txt"));
         day1(Path::new("data/input_1.txt"), Path::new("solutions/output_1.txt"));
+    }
+
+    if aoc_run_day == 2 || run_all {
+        day2(Path::new("data/input_2_sample.txt"), Path::new("solutions/output_2_sample.txt"));
+        day2(Path::new("data/input_2.txt"), Path::new("solutions/output_2.txt"));
     }
 }

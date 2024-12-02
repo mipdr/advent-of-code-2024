@@ -50,16 +50,16 @@ pub fn day1(input: &Path, result: &Path) {
 
 
 
-    // Write to output file
-    let mut file = File::create(result).expect("Unable to create file");
-
+    
     let aux: Vec<i32> = array1.into_iter()
-        .map(|el: i32| -> i32 { el * if frequencies.contains_key(&el) { frequencies[&el] } else { 0 } }).collect();
+    .map(|el: i32| -> i32 { el * if frequencies.contains_key(&el) { frequencies[&el] } else { 0 } }).collect();
 
     let result2: i32 = aux.into_iter().reduce(|a, b| a + b)
-        .unwrap();
+    .unwrap();
 
 
+    // Write to output file
+    let mut file = File::create(result).expect("Unable to create file");
     let text: String = format!("Solution to part 1: {} \nSolution to part 2: {}", sum.to_string(), result2.to_string());
     file.write_all(text.as_bytes()).unwrap();
 
