@@ -7,6 +7,7 @@ use days::day1::day1;
 use days::day2::day2;
 use days::day3::day3;
 use days::day4::day4;
+use days::day5::day5;
 
 
 fn main() {
@@ -43,5 +44,10 @@ fn main() {
     if aoc_run_day == 4 || run_all {
         day4(Path::new("data/input_4_sample.txt"), Path::new("solutions/output_4_sample.txt"));
         day4(Path::new("data/input_4.txt"), Path::new("solutions/output_4.txt"));
+    }
+
+    if aoc_run_day == 5 || run_all {
+        day5(Path::new("data/input_5_sample.txt"), Path::new("solutions/output_5_sample.txt"));
+        day5(Path::new("data/input_5.txt"), Path::new("solutions/output_5.txt"));
     }
 }
