@@ -8,6 +8,9 @@ use days::day2::day2;
 use days::day3::day3;
 use days::day4::day4;
 use days::day5::day5;
+use days::day6::day6;
+use days::day7::day7;
+use days::day8::day8;
 
 
 fn main() {
@@ -49,5 +52,20 @@ fn main() {
     if aoc_run_day == 5 || run_all {
         day5(Path::new("data/input_5_sample.txt"), Path::new("solutions/output_5_sample.txt"));
         day5(Path::new("data/input_5.txt"), Path::new("solutions/output_5.txt"));
+    }
+
+    if aoc_run_day == 6 || run_all {
+        day6(Path::new("data/input_6_sample.txt"), Path::new("solutions/output_6_sample.txt"));
+        day6(Path::new("data/input_6.txt"), Path::new("solutions/output_6.txt"));
+    }
+
+    if aoc_run_day == 7 || run_all {
+        day7(Path::new("data/input_7_sample.txt"), Path::new("solutions/output_7_sample.txt"));
+        day7(Path::new("data/input_7.txt"), Path::new("solutions/output_7.txt"));
+    }
+    
+    if aoc_run_day == 8 || run_all {
+        day8(Path::new("data/input_8_sample.txt"), Path::new("solutions/output_8_sample.txt"));
+        day8(Path::new("data/input_8.txt"), Path::new("solutions/output_8.txt"));
     }
 }

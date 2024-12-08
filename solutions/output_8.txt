@@ -1,0 +1,2 @@
+Solution to part 1: 332
+Solution to part 2: 1174
