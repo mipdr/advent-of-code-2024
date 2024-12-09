@@ -61,7 +61,7 @@ fn get_antinodes(
         while antinode1.0 >= 0
             && antinode1.0 < map_size.0
             && antinode1.1 >= 0
-            && antinode1.1 < map_size.1 
+            && antinode1.1 < map_size.1
         {
             antinodes_part_2.insert(antinode1);
             antinode1.0 += a2x - a1x;
@@ -71,7 +71,7 @@ fn get_antinodes(
         while antinode2.0 >= 0
             && antinode2.0 < map_size.0
             && antinode2.1 >= 0
-            && antinode2.1 < map_size.1 
+            && antinode2.1 < map_size.1
         {
             antinodes_part_2.insert(antinode2);
             antinode2.0 += a1x - a2x;
