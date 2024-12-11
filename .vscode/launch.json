@@ -22,7 +22,7 @@
             "args": [],
             "cwd": "${workspaceFolder}",
             "env": {
-                "AOC_RUN_DAY": "9"
+                "AOC_RUN_DAY": "10"
             }
         },
         {

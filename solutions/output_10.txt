@@ -1,0 +1,2 @@
+Solution to part 1: 778
+Solution to part 2: 1925

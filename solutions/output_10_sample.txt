@@ -1,0 +1,2 @@
+Solution to part 1: 36
+Solution to part 2: 81
